@@ -1,0 +1,50 @@
+.dashboard-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f9fc;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .welcome {
+    font-size: 1.1rem;
+    color: #34495e;
+  }
+  
+  .section {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #e1e4e8;
+  }
+  
+  select {
+    padding: 8px;
+    font-size: 1rem;
+    margin-right: 10px;
+    margin-top: 0.5rem;
+  }
+  
+  button {
+    margin: 6px;
+    padding: 8px 14px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+  

@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+.app-container {
+  background-image: url('images/background.jpg'); /* Ensure this path is correct */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw; /* Ensures it spans the entire viewport */
+  height: 100vh; /* Full screen height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login-container {
+  background-color: rgba(29, 53, 87, 0.9); /* Blue theme with slight transparency */
+  padding: 30px;
+  border-radius: 12px; /* Curved corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 350px;
+}
+
+.app-name {
+  text-align: center;
+  font-size: 2rem;
+  color: #f1c40f; /* Gold text */
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center; /* Ensures form items are centered */
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%; /* Ensures full width inside the container */
+  margin-bottom: 15px;
+}
+
+
+.input-field label {
+  font-size: 1rem;
+  color: #f1c40f; /* Gold text */
+  margin-bottom: 5px;
+  margin-left: 0px;
+  width: 100%; /* Ensures label spans the full width */
+  text-align: left; /* Aligns label to the left */
+}
+
+
+.input-field label {
+  font-size: 1rem;
+  color: #f1c40f; /* Gold text */
+  align-self: flex-start; /* Aligns label to the left */
+}
+
+.input-field input {
+  width: 100%; /* Full width of parent */
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #f1c40f; /* Gold border */
+  border-radius: 6px;
+  background-color: white;
+  color: #1d3557; /* Blue text */
+  text-align: center; /* Centers placeholder and input text */
+}
+
+.input-field input:focus {
+  outline: none;
+  border-color: #e67e22; /* Gold hover */
+}
+
+.login-btn {
+  padding: 12px;
+  font-size: 1rem;
   color: white;
+  background-color: #f1c40f; /* Gold button */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%; /* Ensures button is centered and spans full width */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login-btn:hover {
+  background-color: #e67e22; /* Orange hover effect */
 }
