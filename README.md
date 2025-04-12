@@ -1,3 +1,6 @@
 # profit-pouch
 Profit Pouch Stock App Front End
->>>>>>> 6e6b3f0ed1633efa37b024c6663157711ffa6573
+
+# How to Run:
+- Make sure you have Node installed beforehand
+- If you do, then simply run npm start
